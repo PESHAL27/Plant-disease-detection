@@ -1,0 +1,962 @@
+{
+  "standard_transform": {
+    "dataset_size": 38,
+    "elapsed_seconds": 1.3836184000829235,
+    "avg_ms_per_image": 36.41101052849799,
+    "top1_accuracy": 0.7631578947368421,
+    "top3_accuracy": 0.8947368421052632,
+    "macro_precision": 0.6776315789473685,
+    "macro_recall": 0.7631578947368421,
+    "macro_f1": 0.7035087719298245,
+    "weighted_f1": 0.7035087719298246,
+    "per_class": {
+      "Apple Scab": {
+        "raw_class": "Apple___Apple_scab",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Apple with Black Rot": {
+        "raw_class": "Apple___Black_rot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Cedar Apple Rust": {
+        "raw_class": "Apple___Cedar_apple_rust",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Healthy Apple": {
+        "raw_class": "Apple___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Blueberry Plant": {
+        "raw_class": "Blueberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Cherry with Powdery Mildew": {
+        "raw_class": "Cherry_(including_sour)___Powdery_mildew",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Cherry Plant": {
+        "raw_class": "Cherry_(including_sour)___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Corn (Maize) with Cercospora and Gray Leaf Spot": {
+        "raw_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Corn (Maize) with Common Rust": {
+        "raw_class": "Corn_(maize)___Common_rust_",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Corn (Maize) with Northern Leaf Blight": {
+        "raw_class": "Corn_(maize)___Northern_Leaf_Blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Corn (Maize) Plant": {
+        "raw_class": "Corn_(maize)___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Grape with Black Rot": {
+        "raw_class": "Grape___Black_rot",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Grape with Esca (Black Measles)": {
+        "raw_class": "Grape___Esca_(Black_Measles)",
+        "support": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Grape with Isariopsis Leaf Spot": {
+        "raw_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Grape Plant": {
+        "raw_class": "Grape___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Orange with Citrus Greening": {
+        "raw_class": "Orange___Haunglongbing_(Citrus_greening)",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Peach with Bacterial Spot": {
+        "raw_class": "Peach___Bacterial_spot",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Healthy Peach Plant": {
+        "raw_class": "Peach___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Bell Pepper with Bacterial Spot": {
+        "raw_class": "Pepper,_bell___Bacterial_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1_score": 0.4
+      },
+      "Healthy Bell Pepper Plant": {
+        "raw_class": "Pepper,_bell___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Potato with Early Blight": {
+        "raw_class": "Potato___Early_blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Potato with Late Blight": {
+        "raw_class": "Potato___Late_blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Healthy Potato Plant": {
+        "raw_class": "Potato___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Raspberry Plant": {
+        "raw_class": "Raspberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Soybean Plant": {
+        "raw_class": "Soybean___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Squash with Powdery Mildew": {
+        "raw_class": "Squash___Powdery_mildew",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Strawberry with Leaf Scorch": {
+        "raw_class": "Strawberry___Leaf_scorch",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Healthy Strawberry Plant": {
+        "raw_class": "Strawberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Bacterial Spot": {
+        "raw_class": "Tomato___Bacterial_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Early Blight": {
+        "raw_class": "Tomato___Early_blight",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Tomato with Late Blight": {
+        "raw_class": "Tomato___Late_blight",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Tomato with Leaf Mold": {
+        "raw_class": "Tomato___Leaf_Mold",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Septoria Leaf Spot": {
+        "raw_class": "Tomato___Septoria_leaf_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Spider Mites or Two-spotted Spider Mite": {
+        "raw_class": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Target Spot": {
+        "raw_class": "Tomato___Target_Spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato Yellow Leaf Curl Virus": {
+        "raw_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato Mosaic Virus": {
+        "raw_class": "Tomato___Tomato_mosaic_virus",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Tomato Plant": {
+        "raw_class": "Tomato___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      }
+    },
+    "misclassifications": [
+      {
+        "expected": "Apple Scab",
+        "predicted": "Grape with Black Rot",
+        "confidence": 0.8687610626220703,
+        "top3": [
+          "Grape with Black Rot (86.9%)",
+          "Strawberry with Leaf Scorch (4.8%)",
+          "Tomato with Early Blight (3.4%)"
+        ]
+      },
+      {
+        "expected": "Cedar Apple Rust",
+        "predicted": "Bell Pepper with Bacterial Spot",
+        "confidence": 0.9273221492767334,
+        "top3": [
+          "Bell Pepper with Bacterial Spot (92.7%)",
+          "Grape with Black Rot (3.7%)",
+          "Apple with Black Rot (1.2%)"
+        ]
+      },
+      {
+        "expected": "Corn (Maize) with Common Rust",
+        "predicted": "Corn (Maize) with Cercospora and Gray Leaf Spot",
+        "confidence": 0.8889096975326538,
+        "top3": [
+          "Corn (Maize) with Cercospora and Gray Leaf Spot (88.9%)",
+          "Corn (Maize) with Common Rust (9.1%)",
+          "Cherry with Powdery Mildew (0.6%)"
+        ]
+      },
+      {
+        "expected": "Grape with Esca (Black Measles)",
+        "predicted": "Strawberry with Leaf Scorch",
+        "confidence": 0.9639288187026978,
+        "top3": [
+          "Strawberry with Leaf Scorch (96.4%)",
+          "Grape with Isariopsis Leaf Spot (1.5%)",
+          "Grape with Esca (Black Measles) (0.9%)"
+        ]
+      },
+      {
+        "expected": "Orange with Citrus Greening",
+        "predicted": "Bell Pepper with Bacterial Spot",
+        "confidence": 0.9855715036392212,
+        "top3": [
+          "Bell Pepper with Bacterial Spot (98.6%)",
+          "Orange with Citrus Greening (0.7%)",
+          "Grape with Esca (Black Measles) (0.3%)"
+        ]
+      },
+      {
+        "expected": "Peach with Bacterial Spot",
+        "predicted": "Bell Pepper with Bacterial Spot",
+        "confidence": 0.8018172979354858,
+        "top3": [
+          "Bell Pepper with Bacterial Spot (80.2%)",
+          "Peach with Bacterial Spot (19.6%)",
+          "Cherry with Powdery Mildew (0.1%)"
+        ]
+      },
+      {
+        "expected": "Squash with Powdery Mildew",
+        "predicted": "Grape with Esca (Black Measles)",
+        "confidence": 0.4126664400100708,
+        "top3": [
+          "Grape with Esca (Black Measles) (41.3%)",
+          "Squash with Powdery Mildew (34.8%)",
+          "Grape with Black Rot (15.9%)"
+        ]
+      },
+      {
+        "expected": "Tomato with Early Blight",
+        "predicted": "Healthy Soybean Plant",
+        "confidence": 0.2834886908531189,
+        "top3": [
+          "Healthy Soybean Plant (28.3%)",
+          "Squash with Powdery Mildew (17.6%)",
+          "Healthy Corn (Maize) Plant (15.9%)"
+        ]
+      },
+      {
+        "expected": "Tomato with Late Blight",
+        "predicted": "Potato with Late Blight",
+        "confidence": 0.977266788482666,
+        "top3": [
+          "Potato with Late Blight (97.7%)",
+          "Potato with Early Blight (1.8%)",
+          "Healthy Potato Plant (0.2%)"
+        ]
+      }
+    ]
+  },
+  "direct_transform": {
+    "dataset_size": 38,
+    "elapsed_seconds": 1.2967183999717236,
+    "avg_ms_per_image": 34.124168420308514,
+    "top1_accuracy": 0.7894736842105263,
+    "top3_accuracy": 0.8947368421052632,
+    "macro_precision": 0.7192982456140351,
+    "macro_recall": 0.7894736842105263,
+    "macro_f1": 0.7412280701754386,
+    "weighted_f1": 0.7412280701754387,
+    "per_class": {
+      "Apple Scab": {
+        "raw_class": "Apple___Apple_scab",
+        "support": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Apple with Black Rot": {
+        "raw_class": "Apple___Black_rot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Cedar Apple Rust": {
+        "raw_class": "Apple___Cedar_apple_rust",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Healthy Apple": {
+        "raw_class": "Apple___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Blueberry Plant": {
+        "raw_class": "Blueberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Cherry with Powdery Mildew": {
+        "raw_class": "Cherry_(including_sour)___Powdery_mildew",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Cherry Plant": {
+        "raw_class": "Cherry_(including_sour)___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Corn (Maize) with Cercospora and Gray Leaf Spot": {
+        "raw_class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Corn (Maize) with Common Rust": {
+        "raw_class": "Corn_(maize)___Common_rust_",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Corn (Maize) with Northern Leaf Blight": {
+        "raw_class": "Corn_(maize)___Northern_Leaf_Blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Corn (Maize) Plant": {
+        "raw_class": "Corn_(maize)___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Grape with Black Rot": {
+        "raw_class": "Grape___Black_rot",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Grape with Esca (Black Measles)": {
+        "raw_class": "Grape___Esca_(Black_Measles)",
+        "support": 1,
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Grape with Isariopsis Leaf Spot": {
+        "raw_class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Grape Plant": {
+        "raw_class": "Grape___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Orange with Citrus Greening": {
+        "raw_class": "Orange___Haunglongbing_(Citrus_greening)",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Peach with Bacterial Spot": {
+        "raw_class": "Peach___Bacterial_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Peach Plant": {
+        "raw_class": "Peach___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Bell Pepper with Bacterial Spot": {
+        "raw_class": "Pepper,_bell___Bacterial_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1_score": 0.5
+      },
+      "Healthy Bell Pepper Plant": {
+        "raw_class": "Pepper,_bell___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Potato with Early Blight": {
+        "raw_class": "Potato___Early_blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Potato with Late Blight": {
+        "raw_class": "Potato___Late_blight",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Healthy Potato Plant": {
+        "raw_class": "Potato___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Raspberry Plant": {
+        "raw_class": "Raspberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Soybean Plant": {
+        "raw_class": "Soybean___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Squash with Powdery Mildew": {
+        "raw_class": "Squash___Powdery_mildew",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Strawberry with Leaf Scorch": {
+        "raw_class": "Strawberry___Leaf_scorch",
+        "support": 1,
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666
+      },
+      "Healthy Strawberry Plant": {
+        "raw_class": "Strawberry___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Bacterial Spot": {
+        "raw_class": "Tomato___Bacterial_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Early Blight": {
+        "raw_class": "Tomato___Early_blight",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Tomato with Late Blight": {
+        "raw_class": "Tomato___Late_blight",
+        "support": 1,
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "Tomato with Leaf Mold": {
+        "raw_class": "Tomato___Leaf_Mold",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Septoria Leaf Spot": {
+        "raw_class": "Tomato___Septoria_leaf_spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Spider Mites or Two-spotted Spider Mite": {
+        "raw_class": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato with Target Spot": {
+        "raw_class": "Tomato___Target_Spot",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato Yellow Leaf Curl Virus": {
+        "raw_class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Tomato Mosaic Virus": {
+        "raw_class": "Tomato___Tomato_mosaic_virus",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "Healthy Tomato Plant": {
+        "raw_class": "Tomato___healthy",
+        "support": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      }
+    },
+    "misclassifications": [
+      {
+        "expected": "Apple Scab",
+        "predicted": "Grape with Black Rot",
+        "confidence": 0.5528416633605957,
+        "top3": [
+          "Grape with Black Rot (55.3%)",
+          "Tomato with Early Blight (18.1%)",
+          "Healthy Blueberry Plant (17.5%)"
+        ]
+      },
+      {
+        "expected": "Cedar Apple Rust",
+        "predicted": "Bell Pepper with Bacterial Spot",
+        "confidence": 0.8512765169143677,
+        "top3": [
+          "Bell Pepper with Bacterial Spot (85.1%)",
+          "Grape with Black Rot (7.7%)",
+          "Apple with Black Rot (3.6%)"
+        ]
+      },
+      {
+        "expected": "Corn (Maize) with Common Rust",
+        "predicted": "Corn (Maize) with Cercospora and Gray Leaf Spot",
+        "confidence": 0.9185411334037781,
+        "top3": [
+          "Corn (Maize) with Cercospora and Gray Leaf Spot (91.9%)",
+          "Corn (Maize) with Common Rust (5.1%)",
+          "Healthy Corn (Maize) Plant (1.9%)"
+        ]
+      },
+      {
+        "expected": "Grape with Esca (Black Measles)",
+        "predicted": "Strawberry with Leaf Scorch",
+        "confidence": 0.7512744069099426,
+        "top3": [
+          "Strawberry with Leaf Scorch (75.1%)",
+          "Grape with Esca (Black Measles) (21.6%)",
+          "Squash with Powdery Mildew (0.6%)"
+        ]
+      },
+      {
+        "expected": "Orange with Citrus Greening",
+        "predicted": "Bell Pepper with Bacterial Spot",
+        "confidence": 0.9764286875724792,
+        "top3": [
+          "Bell Pepper with Bacterial Spot (97.6%)",
+          "Grape with Esca (Black Measles) (1.0%)",
+          "Potato with Early Blight (0.3%)"
+        ]
+      },
+      {
+        "expected": "Squash with Powdery Mildew",
+        "predicted": "Grape with Esca (Black Measles)",
+        "confidence": 0.48354572057724,
+        "top3": [
+          "Grape with Esca (Black Measles) (48.4%)",
+          "Strawberry with Leaf Scorch (23.2%)",
+          "Squash with Powdery Mildew (14.3%)"
+        ]
+      },
+      {
+        "expected": "Tomato with Early Blight",
+        "predicted": "Apple Scab",
+        "confidence": 0.7179362773895264,
+        "top3": [
+          "Apple Scab (71.8%)",
+          "Healthy Blueberry Plant (10.2%)",
+          "Squash with Powdery Mildew (5.8%)"
+        ]
+      },
+      {
+        "expected": "Tomato with Late Blight",
+        "predicted": "Potato with Late Blight",
+        "confidence": 0.8888582587242126,
+        "top3": [
+          "Potato with Late Blight (88.9%)",
+          "Healthy Blueberry Plant (8.5%)",
+          "Tomato with Late Blight (1.5%)"
+        ]
+      }
+    ]
+  }
+}

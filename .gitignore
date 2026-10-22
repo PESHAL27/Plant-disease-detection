@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Scratch scripts & temporary testing artifacts
+scratch/
+.tempmediaStorage/
+*.tmp
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit logs & cache
+.streamlit/
+logs/
+
+# Model checkpoints (allow verified 25MB EfficientNet-B0 checkpoint)
+*.pt
+!models/model_v1.pt
+models/*.safetensors
+models/plant_disease_model/
